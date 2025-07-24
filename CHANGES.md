@@ -16,7 +16,7 @@ This document summarizes the key issues found in the original codebase, the chan
 
   - Error handling was inconsistent and often vague, making debugging harder.
 
-  - Tests were not modular and had limited coverage.
+  - No Test cases defined for debugging and actual working for code.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ This document summarizes the key issues found in the original codebase, the chan
 
   - Refactored Tests
 
-      - Updated tests to follow the new layered structure and mock dependencies correctly.
+      - Added tests to follow the new layered structure and mock dependencies correctly.(python pytest.py ) for running test cases.
 
       - Added edge case and failure scenario tests to increase coverage.
 
